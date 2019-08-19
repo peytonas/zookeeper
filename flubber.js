@@ -1,11 +1,10 @@
-export default class Aardvark {
+export default class Flubber {
   constructor(data) {
     this.name = data.name;
     this.color = data.color;
     this.gender = data.gender;
     this.weight = data.weight;
-    this.tongue = data.tongue;
+    this.hobbies = data.hobbies;
     this.food = data.food;
-    console.log("Made an Aardvark!")
   }
 }
