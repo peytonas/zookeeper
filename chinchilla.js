@@ -9,6 +9,7 @@ export default class Chinchilla {
     this.legs = data.legs;
   }
   eat(food) {
-    console.log(`I love ${food}!`)
+    this.food = `I love ${food}`
+    console.log(this.food)
   }
 }

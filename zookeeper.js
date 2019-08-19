@@ -25,13 +25,6 @@ class Zoo {
   }
 }
 
-
-
-class fourLeggers {
-  constructor() {
-    console.log("Not as good as us bipeds!")
-    if ()
-  }
-}
+console.log()
 
 window["Zoo"] = new Zoo()
