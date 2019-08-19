@@ -7,6 +7,7 @@ export default class Badger {
     this.clawLength = data.clawLength;
     this.food = data.food;
     this.noise = data.noise;
+    this.legs = data.legs;
   }
   eat(food) {
     console.log(`I eat ${food}!`)

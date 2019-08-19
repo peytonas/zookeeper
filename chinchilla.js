@@ -6,6 +6,7 @@ export default class Chinchilla {
     this.weight = data.weight;
     this.personality = data.personality;
     this.food = data.food;
+    this.legs = data.legs;
   }
   eat(food) {
     console.log(`I love ${food}!`)

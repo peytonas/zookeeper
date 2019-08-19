@@ -6,6 +6,7 @@ export default class Dingo {
     this.weight = data.weight;
     this.habitat = data.habitat;
     this.food = data.food;
+    this.legs = data.legs;
   }
   eat(food) {
     console.log(`I love ${food}!`)

@@ -6,6 +6,7 @@ export default class Aardvark {
     this.weight = data.weight;
     this.tongue = data.tongue;
     this.food = data.food;
+    this.legs = data.legs;
     console.log("Made an Aardvark!")
   }
 }
